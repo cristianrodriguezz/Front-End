@@ -1,13 +1,16 @@
-header{
+header {
     text-align: center;
 }
 
-body .colorfondo{
+body .colorfondo {
     background-color: aqua;
 }
-#nombre .colorfondo{
-    height: 250px;
+.a {
+    background-color: aqua;
+    height: 60px;
+
 }
+
 footer{
     background-color: #2205;
     text-align: center;
