@@ -1,0 +1,14 @@
+header{
+    text-align: center;
+}
+
+body .colorfondo{
+    background-color: aqua;
+}
+#nombre .colorfondo{
+    height: 250px;
+}
+footer{
+    background-color: #2205;
+    text-align: center;
+}
