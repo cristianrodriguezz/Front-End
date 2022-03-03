@@ -1,5 +1,12 @@
-html{
+main{
     background-color: beige;
+}
+header{
+    background-image: url(/img/header.webp);
+}
+body{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 19px;
 }
 #foto{
     box-shadow: 0 2px 5px;
@@ -13,7 +20,7 @@ body .colorfondo {
     box-shadow: 0 2px 5px;
 }
 #p{
-    height: 50px;
+    height: 55px;
 
 }
 
