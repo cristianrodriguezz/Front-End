@@ -1,6 +1,9 @@
 html{
     background-color: beige;
 }
+#foto{
+    box-shadow: 0 2px 5px;
+}
 header {
     text-align: center;
 }
@@ -9,12 +12,13 @@ body .colorfondo {
     background-color: aqua;
     box-shadow: 0 2px 5px;
 }
-h1 #p .colorfondo{
-    height: 60px;
+#p{
+    height: 50px;
 
 }
 
 footer{
+    border: 5px double chocolate;
     background-color: #2205;
     text-align: center;
 }
