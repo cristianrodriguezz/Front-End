@@ -1,31 +1,58 @@
 main{
     background-color: beige;
 }
+
 header{
     background-image: url(/img/header.webp);
+    background-size: cover;
+    text-align: center;
 }
+
 body{
     font-family: 'League Gothic', sans-serif;
     font-size: 19px;
+    background-image: url(/img/header.webp);
 }
 #foto{
     box-shadow: 0 2px 5px;
+    border-radius: 10%;
 }
-header {
-    text-align: center;
-}
-
 body .colorfondo {
     background-color: aqua;
     box-shadow: 0 2px 5px;
+    
 }
 #p{
-    height: 55px;
-
+    padding: 10px;
+    margin: 25px 200px 25px 200px;
+    background-color: aqua;
+    box-shadow: 0 2px 5px;
 }
-
+h1{
+    
+}
 footer{
-    border: 5px double chocolate;
-    background-color: #2205;
+    border: 5px double rgb(0, 0, 0);
+    background-color: aqua;
     text-align: center;
 }
+#c{
+    padding: 10px 10px 10px 10px;
+    height: center;
+    width: center;
+}
+footer .contacto{
+    padding: 10px 10px 10px 10px;
+}
+ul#icono li{
+    display: inline;
+}
+#num{
+    margin: auto;
+}
+.contacto:hover{
+    
+    border-color: rgba(0, 0, 0.5, 0.1);
+    
+}
+
