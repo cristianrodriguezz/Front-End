@@ -28,9 +28,7 @@ body .colorfondo {
     background-color: aqua;
     box-shadow: 0 2px 5px;
 }
-h1{
-    
-}
+
 footer{
     border: 5px double rgb(0, 0, 0);
     background-color: aqua;
@@ -49,6 +47,7 @@ ul#icono li{
 }
 #num{
     margin: auto;
+
 }
 .contacto:hover{
     
