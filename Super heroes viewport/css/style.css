@@ -95,18 +95,20 @@ header #desc{
 .contenidoCarta:hover{
     transform: translateY(-2px);
 }
-@media(max-width: 380px){
+@media(max-width: 442px){
     header #title{
         margin-bottom: 80px;
     }
     #contenedorCard{
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .container{
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 20px;
+        margin-left: 20px;
     }
     footer #pie{
         font-size: 13px;
@@ -114,7 +116,7 @@ header #desc{
     .botonMas{
         visibility: visible;
         background-color: #00669F;
-        width: 50px;
+        width: 61px;
         height: auto;
         padding: 10px;
         border-radius: 50%;
@@ -128,24 +130,24 @@ header #desc{
         text-align: center;
     }
 }
-@media{
+@media(min-width: 443px) and (max-width: 800px){
     header #title{
         margin-bottom: 20px;
     }
     #contenedorCard{
         display: flex;
+        justify-content: space-around;
         flex-wrap: wrap;
-
     }
     .container{
         margin-bottom: 50px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .botonMas{
         visibility: visible;
         background-color: #00669F;
-        width: 50px;
+        width: 61px;
         height: auto;
         padding: 10px;
         border-radius: 50%;
@@ -157,5 +159,9 @@ header #desc{
         font-weight: 900;
         font-size: 50px;
         text-align: center;
+        box-shadow: 0px 5px 9px black;
+    }
+    .botonMas:hover{
+        box-shadow: none;
     }
 }
